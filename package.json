@@ -1,0 +1,50 @@
+{
+  "name": "my-dev-setup",
+  "version": "1.0.0",
+  "description": "A simple setup package that installs all essential npm packages for Node.js and frontend development with just one command. Includes tools for development, linting, testing, security, and performance optimization.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "postinstall": "echo '✅ All packages installed successfully!'",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "helmet": "^7.2.0",
+    "cors": "^2.8.5",
+    "compression": "^1.7.4",
+    "rate-limiter-flexible": "^5.0.7",
+    "morgan": "^1.10.0",
+    "bcryptjs": "^2.4.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "concurrently": "^9.0.1",
+    "eslint": "^9.11.1",
+    "prettier": "^3.3.3",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "cross-env": "^7.0.3",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "keywords": [
+    "setup",
+    "npm",
+    "packages",
+    "starter",
+    "nodejs",
+    "dev-tools"
+  ],
+  "homepage": "https://github.com/Maharab2134/my-dev-setup#readme",
+  "bugs": {
+    "url": "https://github.com/Maharab2134/my-dev-setup/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maharab2134/my-dev-setup.git"
+  },
+  "author": "Md. Maharab Hosen",
+  "license": "Apache-2.0"
+}
